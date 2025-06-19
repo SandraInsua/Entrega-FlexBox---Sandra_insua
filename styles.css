@@ -1,4 +1,3 @@
-/* RESET Y CONFIGURACIÓN BÁSICA */
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +17,6 @@ img {
   display: block;
 }
 
-/* HEADER */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -56,8 +54,7 @@ img {
   cursor: pointer;
 }
 
-/* HERO SECTION */
-.hero {
+.primerapartado {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -66,28 +63,28 @@ img {
   flex-wrap: wrap;
 }
 
-.hero-content {
+.primerapartado-contenido {
   flex: 1;
   min-width: 300px;
 }
 
-.hero h1 {
+.primerapartado h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
-.hero p {
+.primerapartado p {
   font-size: 1.1rem;
 }
 
-.hero-image {
+.primerapartado-imagen {
   flex: 1;
   min-width: 250px;
   display: flex;
   justify-content: center;
 }
 
-/* LABORATORIOS */
+
 .Laboratorios {
   display: flex;
   justify-content: center;
@@ -102,7 +99,7 @@ img {
   object-fit: contain;
 }
 
-/* ACERCA DE */
+
 .Acerca.de {
   padding: 2rem;
   background-color: #b9e7bb9c;
@@ -209,4 +206,5 @@ img {
     height: 30px;
   }
 }
+
 
